@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Register Today</h1>
+      <!-- Form -->
+      <form id="form">
+        <!-- form-name -->
+        <div class="box">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Full Name" required minlength="3" maxlength="100" name="name"/>
+        </div>
+        <!-- phonenumber -->
+        <div class="box">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="999-999-9999" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone"/>
+          </div>
+          <!-- Email Address -->
+          <div class="box">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="email@Address.com" required name="email"/>
+          </div>
+          <!-- password -->
+          <div class="box">
+            <label for="password1">Password</label>
+            <input type="password" id="password1" placeholder="create your password (min. 8 characters)" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+            title="please include 1 uppercase letter 1 lowercase letter and a number" name="password"/>
+          </div>
+          <!-- confirm Password -->
+          <div class="box">
+            <label for="password2">confirm password</label>
+            <input type="password" id="password2" placeholder="confirm password" required   pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"/>
+          </div>
+          <button type="submit">Register</button>
+      </form>
+      <div class="alert-container">
+          <h3 id="alert">Join us</h3>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
