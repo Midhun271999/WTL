@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<courses>
+   <course subdir="s03" id="phy10101">
+      <course_no>PHY 101 01</course_no>
+      <course_title>Introduction to Physics</course_title>
+      <term>Spring 2003</term>
+      <teacher_title>Prof. Einstein</teacher_title>
+      <users>
+        <user id="X34322">
+          <first>ANN</first>
+          <last>SUSU</last>
+          <username></username>
+          <group>faculty</group>
+        </user>
+        <user id="X343888">
+          <first>BABI</first>
+          <last>THOMES</last>
+          <username></username>
+          <group>student</group>
+        </user>
+        <user id="X347332">
+          <first>Reshmi</first>
+          <last>midhun</last>
+          <username></username>
+          <group>student</group>
+        </user>
+        <user id="X394032">
+          <first>Manu</first>
+          <last>s</last>
+          <username></username>
+          <group>student</group>
+        </user>
+      </users>
+   </course>
+   <course subdir="s03" id="eng10101">
+      <course_no>ENG 101 01</course_no>
+      <course_title>English Composition I</course_title>
+      <term>Spring 2003</term>
+      <teacher_title>Prof. Fuller</teacher_title>
+      <users>
+        <user id="X349933">
+          <first>hari</first>
+          <last>s</last>
+          <username></username>
+          <group>faculty</group>
+        </user>
+        <user id="X348756">
+          <first>akhil</first>
+          <last>kumar</last>
+          <username></username>
+          <group>student</group>
+        </user>
+      </users>
+   </course>
+</courses>
