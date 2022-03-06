@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<document>
+  <employee>
+    <name>
+      <lastname>M</lastname>
+      <firstname>Reshmi</firstname>
+    </name>
+    <hiredate>October 27, 2021</hiredate>
+    <projects>
+      <project>
+        <product>Printer</product>
+        <id>111</id>
+        <price>$111.00</price>
+      </project>
+      <project>
+        <product>Laptop</product>
+        <id>222</id>
+        <price>$989.00</price>
+      </project>
+    </projects>
+  </employee>
+  <employee>
+    <name>
+      <lastname>Nithin</lastname>
+      <firstname>geethu</firstname>
+    </name>
+    <hiredate>October 20, 2022</hiredate>
+    <projects>
+      <project>
+        <product>Desktop</product>
+        <id>333</id>
+        <price>$2995.00</price>
+      </project>
+      <project>
+        <product>Scanner</product>
+        <id>444</id>
+        <price>$200.00</price>
+      </project>
+    </projects>
+  </employee>
+  <employee>
+    <name>
+      <lastname>lal</lastname>
+      <firstname>Neethu</firstname>
+    </name>
+    <hiredate>October 25, 2019</hiredate>
+    <projects>
+      <project>
+        <product>Keyboard</product>
+        <id>555</id>
+        <price>$129.00</price>
+      </project>
+      <project>
+        <product>Mouse</product>
+        <id>666</id>
+        <price>$25.00</price>
+      </project>
+    </projects>
+  </employee>
+</document>
